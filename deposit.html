@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <h1 class="text-center mt-16 mb-12 text-4xl font-bold"> Let's get some money</h1>
+    <section>
+        <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto">
+            <div class="bg-sky-500 p-2  rounded">
+                <h4 id="text-center">Deposit</h4>
+                <h3 class="text-center text-2xl">$<span id="depositAmount">10</span></h3>
+            </div>
+            <div class="bg-lime-400 p-2  rounded">
+                <h4 class="text-center">Withdraw</h4>
+                <h3 class="text-center text-2xl">$<span id="withdrawAmount">00</span></h3>
+            </div>
+            <div class="bg-cyan-300 p-2  rounded">
+                <h4 class="text-center">Balance</h4>
+                <h3 class="text-center text-2xl">$<span id="balanceAmount">2000</span></h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid grid-cols-2 gap-4 rounded w-3/4 mx-auto">
+            <div class="mt-12 bg-purple-400 p-2 rounded">
+                <h2>Please deposit</h2>
+                <div>
+                    <input type="text" name="" id="inputDepositText" placeholder="Enter amount to deposit" class="mt-4 mb-2 border border-gray-800 rounded" ><br>
+                    <button id="depositButton" class="text-white bg-sky-500/75 px-4 py-1 rounded rounded-md" >Deposit</button>
+                    <p class="mt-4" id="alertDeposit"></p>
+                    
+                </div>
+            </div>
+            <div class="mt-12 bg-fuchsia-300 p-2 rounded">
+                <h2>Please withdraw</h2>
+                <div>
+                    <input type="text" name="" id="inputWithdrawText" placeholder="Enter amount to withdraw" class="mt-4 mb-2 border border-gray-800 rounded" ><br>
+                    <button id="withdrawButton" class="text-white bg-sky-500/75 px-4 py-1 rounded rounded-md" >Withdraw</button>
+                    <p class="mt-4" id="alertWithdraw"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    
+
+
+
+
+
+
+
+
+    <script src="new.js"></script>
+</body>
+</html>
